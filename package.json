@@ -1,0 +1,20 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "Remote job board crawler — raw ingestion only",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "crawl": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0",
+    "mysql2": "^3.9.7",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
